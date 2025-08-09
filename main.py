@@ -111,7 +111,7 @@ async def handle_file(message: Message):
             await message.answer("В архиве нет файлов для отправки.")
         else:
             logger.info(f"Отправлено {count} файлов пользователю {user_id}")
-            await message.answer("Готово ✅")
+            await message.answer("Готово ✅✅✅")
 
 
 async def main():
